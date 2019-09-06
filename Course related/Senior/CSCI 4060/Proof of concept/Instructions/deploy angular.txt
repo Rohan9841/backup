@@ -1,0 +1,28 @@
+USING SERVERLESS ENVIRONMENT
+
+In cmd:
+	1. npm install -g serverless
+In aws:
+	1.Click IAM
+	2.Add user
+	3. Tick programmatic access
+	4. Next -> attach existing policies
+	5. Choose administrator access
+	6. Access key = AKIATF6BQRHNKTUXHCYW
+	7. secret access key = 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
+In cmd:
+	1. Type: serverless config credentials --provider aws --key AKIATF6BQRHNKTUXHCYW --secret d2lvQ9mZZgEwP5ZXJaBisou5cK8IZlynW+IxvxJL
+	2. Change path to angular app (POC-master)
+	3. ng add @ng-toolkit/universal (This lets google index your app - optional)
+	4. ng add @ng-toolkit/serverless --provider aws
+	5. npm run build:serverless:deploy
+
+_____________________________________________________________________________________________________________________
+USING S3
+
+In cmd:
+	1. ng build --prod
+	2. Create bucket in s3
+	3. Put the build files
+	4. Under properties, click on use to host static website
+	5. Type index.html

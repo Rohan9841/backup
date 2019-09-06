@@ -1,0 +1,33 @@
+package tacos.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import tacos.Taco;
+import tacos.data.IngredientRepository;
+
+@RequestMapping("/design")
+public class DesignController {
+
+	private IngredientRepository ingredientRepo;
+	
+	@Autowired
+	public DesignController(IngredientRepository ingredientRepo) {
+		this.ingredientRepo = ingredientRepo;
+	}
+	@ModelAttribute
+	public void addIngredientsToModel(Model model) {
+		model.addAttribute(new Taco());
+		
+		System.out.println(ingredientRepo.findAll());
+	}
+	
+	@GetMapping
+	public String showDesign(Model model) {
+		return "design";
+	}
+	
+}

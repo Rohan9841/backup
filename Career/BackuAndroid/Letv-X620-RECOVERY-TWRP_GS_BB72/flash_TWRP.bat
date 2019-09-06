@@ -1,0 +1,1 @@
+fastboot flash recovery Letv-X620-Twrp-3.0.2-0_BB72_r10.img

@@ -1,0 +1,379 @@
+Alatin
+3285
+16391
+26836
+28290
+Number of cuts:  4
+
+Alpacados
+3247
+Number of cuts:  1
+
+AngryOrchard
+3230
+28154
+Number of cuts:  2
+
+AppleCloud
+2994
+4754
+28165
+35819
+Number of cuts:  4
+
+Belenaria
+3285
+3471
+16391
+28224
+35967
+Number of cuts:  5
+
+BobbyDazzler
+3356
+Number of cuts:  1
+
+Bonanza
+3285
+Number of cuts:  1
+
+Bradshaw
+3285
+16391
+28223
+Number of cuts:  3
+
+Bryce
+3285
+Number of cuts:  1
+
+ChewyVIII
+8961
+66020
+Number of cuts:  2
+
+CosmicSans
+3285
+16391
+28223
+Number of cuts:  3
+
+Dinger
+3281
+28207
+Number of cuts:  2
+
+DocB7
+6338
+21910
+36418
+39971
+49158
+54062
+63615
+Number of cuts:  7
+
+  E3
+24156
+29886
+36531
+68897
+127746
+Number of cuts:  5
+
+Erik
+3285
+3471
+16390
+28221
+Number of cuts:  4
+
+Espica
+3285
+3471
+16391
+28224
+35967
+Number of cuts:  5
+
+Finch
+13094
+27841
+52022
+112529
+118950
+Number of cuts:  5
+
+Gollum
+3285
+3471
+16391
+28223
+Number of cuts:  4
+
+Grayson
+4092
+4106
+7624
+16014
+23874
+24384
+27621
+35699
+45095
+48915
+49644
+65278
+67971
+69774
+89776
+96296
+104365
+116111
+118427
+Number of cuts: 19
+
+Harlequin
+3285
+5045
+Number of cuts:  2
+
+Hiro
+3285
+Number of cuts:  1
+
+Jace
+2688
+36340
+Number of cuts:  2
+
+Jester
+3285
+5045
+Number of cuts:  2
+
+Krishelle
+3285
+28507
+Number of cuts:  2
+
+Lillie
+3285
+16391
+28223
+Number of cuts:  3
+
+Mahdia
+Number of cuts:  0
+
+Naiad
+3285
+16391
+26782
+28236
+Number of cuts:  4
+
+Nancinator
+3285
+3471
+16391
+28224
+35967
+Number of cuts:  5
+
+Natosaleda
+3285
+3471
+16391
+28223
+35966
+Number of cuts:  5
+
+Partridge
+3045
+3344
+28306
+Number of cuts:  3
+
+Pepy6
+19984
+22737
+31185
+35148
+57346
+Number of cuts:  5
+
+Peregrin
+3020
+6937
+12988
+15890
+17610
+23040
+23958
+27135
+34481
+43453
+43875
+43954
+47046
+47695
+48424
+49216
+51675
+63696
+64549
+89210
+95288
+95329
+99897
+110548
+Number of cuts: 24
+
+Phrankenstein
+3285
+3471
+16391
+28169
+Number of cuts:  4
+
+Pine5
+Number of cuts:  0
+
+Poco6
+15666
+22006
+37170
+74275
+Number of cuts:  4
+
+Rasputin
+3285
+3471
+28194
+Number of cuts:  3
+
+RER2
+3285
+16391
+Number of cuts:  2
+
+RexFury
+3316
+3502
+16422
+28254
+36056
+Number of cuts:  5
+
+RGL3
+3287
+24189
+24593
+Number of cuts:  3
+
+Rhodalysa
+3285
+16391
+28223
+Number of cuts:  3
+
+StCroix
+3285
+16391
+26782
+28236
+Number of cuts:  4
+
+Swann
+3285
+16391
+28223
+Number of cuts:  3
+
+Takoda
+3277
+28196
+Number of cuts:  2
+
+Trina
+3580
+8530
+10386
+11241
+12715
+18170
+20531
+30878
+33165
+33615
+34109
+40025
+42075
+45332
+46228
+54338
+54953
+60046
+65859
+70007
+73803
+82838
+86724
+89926
+105104
+108138
+115350
+119863
+123534
+124632
+133558
+134368
+Number of cuts: 32
+
+TWAMP
+3285
+16391
+28223
+Number of cuts:  3
+
+UhSalsa
+3285
+3471
+16391
+28224
+35967
+Number of cuts:  5
+
+Weasels2
+2828
+19293
+42602
+54176
+61693
+64304
+64800
+65392
+65491
+66725
+72949
+76356
+78022
+85298
+88127
+92630
+102852
+117816
+131299
+131303
+134533
+Number of cuts: 21
+
+Yogi
+3285
+Number of cuts:  1
+
+Yoncess
+3285
+Number of cuts:  1
+

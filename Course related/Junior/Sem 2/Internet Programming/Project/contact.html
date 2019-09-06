@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="mobileHomePage.css" />
+    <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 768px)" href="tabletHomePage.css" />
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="desktopHomePage.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Rohan Maharjan</h1>
+        <nav>
+            <img src="images/navBar.png" id="navBarPic">
+            <section id="navLinks">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <section id="contactBody" class="">
+        <h1>Contact</h1>
+        <form method="post" action="process.php" id="form">
+            <fieldset>
+                <legend>Please fill this form</legend>
+
+                <p>
+                    <label>Name:</label>
+                    <br />
+                    <input type="text" placeholder="Enter your full name" />
+                </p>
+
+                <p>
+                    <label>Email:</label>
+                    <br />
+                    <input type="text" placeholder="Enter your Email address" />
+                </p>
+
+                <p>
+                    <label>Subject:</label>
+                    <br />
+                    <input type="text" placeholder="Enter your message topic" />
+
+                </p>
+                <p>
+                    <label>Message:</label>
+                    <br />
+                    <input type="text" placeholder="Enter your message" />
+                </p>
+
+                <p>
+                    <input type = "submit" value = "submit" id = "submitButton"/>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <section>
+            <p>
+                <strong>Phone:</strong>
+                <br />
+                <span>318-538-9201</span>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <br />
+                <span>Rohan9841@gmail.com</span>
+            </p>
+            <p>
+                <strong>Address:</strong>
+                <br />
+                <span>700 University Avenue<br />Monroe, LA 71209</span>
+            </p>
+        </section>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="enquire.js"></script>
+    <script type="text/javascript" src="jsSelector.js"></script>
+</body>
+
+</html>

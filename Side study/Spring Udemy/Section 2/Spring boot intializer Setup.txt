@@ -1,0 +1,21 @@
+1. Project: Maven Project
+
+2. Language: Java
+
+3. Spring Boot: 2.1.5
+
+4. Project Metadata:
+	a. Group: rohan.springFramework
+	b. Artifact: spring5WebApp
+
+5. Packaging: Jar
+
+6. Java version: 8
+
+7. Dependencies:
+	a. Web: Web
+	b. Template  Engine: Thymeleaf
+	c. SQL: JPA, H2
+	d. Ops: Actuator 
+
+Generate Project 

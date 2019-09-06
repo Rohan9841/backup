@@ -1,0 +1,261 @@
+Alatin
+45436
+Number of cuts:  1
+
+Alpacados
+14672
+45259
+Number of cuts:  2
+
+AngryOrchard
+Number of cuts:  0
+
+AppleCloud
+45153
+Number of cuts:  1
+
+Belenaria
+45301
+Number of cuts:  1
+
+BobbyDazzler
+14781
+24076
+45407
+Number of cuts:  3
+
+Bonanza
+14710
+45711
+Number of cuts:  2
+
+Bradshaw
+Number of cuts:  0
+
+Bryce
+5437
+24005
+45115
+Number of cuts:  3
+
+ChewyVIII
+68013
+Number of cuts:  1
+
+CosmicSans
+45360
+Number of cuts:  1
+
+Dinger
+9194
+Number of cuts:  1
+
+DocB7
+68422
+Number of cuts:  1
+
+  E3
+Number of cuts:  0
+
+Erik
+45191
+Number of cuts:  1
+
+Espica
+45301
+Number of cuts:  1
+
+Finch
+Number of cuts:  0
+
+Gollum
+Number of cuts:  0
+
+Grayson
+40274
+40777
+46426
+48322
+55400
+58078
+62257
+63800
+65862
+75950
+112400
+113019
+122747
+123159
+124046
+126179
+Number of cuts: 16
+
+Harlequin
+24035
+45150
+Number of cuts:  2
+
+Hiro
+24290
+45621
+Number of cuts:  2
+
+Jace
+Number of cuts:  0
+
+Jester
+23966
+45081
+Number of cuts:  2
+
+Krishelle
+Number of cuts:  0
+
+Lillie
+45360
+Number of cuts:  1
+
+Mahdia
+Number of cuts:  0
+
+Naiad
+45382
+Number of cuts:  1
+
+Nancinator
+44699
+Number of cuts:  1
+
+Natosaleda
+45300
+Number of cuts:  1
+
+Partridge
+Number of cuts:  0
+
+Pepy6
+Number of cuts:  0
+
+Peregrin
+25133
+39055
+39557
+45206
+59821
+62167
+64280
+75879
+105465
+111972
+112598
+112864
+118446
+124319
+124826
+125892
+129581
+Number of cuts: 17
+
+Phrankenstein
+45306
+Number of cuts:  1
+
+Pine5
+5946
+22893
+Number of cuts:  2
+
+Poco6
+8988
+66364
+Number of cuts:  2
+
+Rasputin
+14705
+45331
+Number of cuts:  2
+
+RER2
+45360
+Number of cuts:  1
+
+RexFury
+45390
+Number of cuts:  1
+
+RGL3
+Number of cuts:  0
+
+Rhodalysa
+45360
+Number of cuts:  1
+
+StCroix
+45382
+Number of cuts:  1
+
+Swann
+45358
+Number of cuts:  1
+
+Takoda
+Number of cuts:  0
+
+Trina
+Number of cuts:  0
+
+TWAMP
+45360
+Number of cuts:  1
+
+UhSalsa
+45301
+Number of cuts:  1
+
+Weasels2
+1484
+2014
+4468
+7458
+10781
+13034
+22420
+25136
+37328
+37583
+41768
+43779
+54842
+63316
+64786
+67118
+77488
+86196
+88804
+90188
+90861
+91441
+96333
+96345
+96459
+99642
+115066
+119480
+125816
+127636
+130452
+133189
+133719
+Number of cuts: 33
+
+Yogi
+14710
+45711
+Number of cuts:  2
+
+Yoncess
+14710
+24005
+45119
+Number of cuts:  3
+

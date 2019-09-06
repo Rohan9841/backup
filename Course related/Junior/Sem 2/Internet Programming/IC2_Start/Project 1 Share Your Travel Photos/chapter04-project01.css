@@ -1,0 +1,108 @@
+footer
+{
+	color: white;
+	background-color: #1A237E;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+
+header
+{
+	color: white;
+	background-color: #1A237E;
+	padding: 0.5em 0.5em 0em 0.5em;
+}
+body
+{
+	margin: 0em 4em 0.5em 4em;
+	background-color: #E8EAF6;
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+main
+{
+	background-color: white;
+	padding: 1em;
+}
+section
+{
+	background-color: white;
+	border: 0.05em solid #C5CAE9;
+	margin-bottom: 0.75em;
+}
+
+nav
+{
+	background-color: #3F51B5;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	margin-bottom: 1em;	
+	margin-top: -1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li
+{
+	display: inline;
+	margin-left: 0.5em;
+}
+
+ul li a:hover
+{
+	background-color: #F50057;
+	color: white;
+}
+
+a
+{
+	color: #00B0FF;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family:sans-serif;
+	color: white;
+}
+
+h3
+{
+	background-color: #7986CB;
+	padding: 0.5em;
+	text-transform:uppercase;
+}
+
+h6 
+{
+	position: relative;
+	top: -2em;
+}
+figure img
+{
+	width: 100%;
+}
+
+figcaption
+{
+	padding: 0.5em;
+	margin-top: -0.25em;
+	background-color: #C5CAE9;
+}
+
+time
+{
+	color: #FF80AB;
+}
+
+hr
+{
+	border-color: #C5CAE9;
+}
+
+p
+{
+	padding: 0.25em;
+}

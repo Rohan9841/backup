@@ -1,0 +1,2 @@
+mysql -h student-dev1.cnymyfkgy4hj.us-east-1.rds.amazonaws.com -u Rohan -p Rohan9841
+

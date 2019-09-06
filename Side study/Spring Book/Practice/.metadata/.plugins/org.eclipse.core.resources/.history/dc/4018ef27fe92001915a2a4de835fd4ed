@@ -1,0 +1,15 @@
+package tacos;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data
+@Entity
+public class Ingredient {
+	
+	private final String id;
+	private final String name;
+	private final String type;
+	
+}

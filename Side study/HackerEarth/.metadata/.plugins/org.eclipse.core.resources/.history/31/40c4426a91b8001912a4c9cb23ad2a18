@@ -1,0 +1,82 @@
+
+import java.util.*;
+
+public class Permutation {
+	
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		int a[] = new int[n];
+		
+		for(int i = 0; i<n; i++) {
+			a[i] = in.nextInt();
+		}
+		
+		System.out.println(minimumPrefixReversals(a));
+	}
+	
+	public static int minimumPrefixReversals(int[] a) {
+		int n = a.length;
+		String start ="", destination = "";
+		String original = "", modified = "";
+		Node temp = null;
+		
+		for (int i = 0; i<n; i++) {
+			start += a[i];
+		}
+		
+		Arrays.sort(a);
+		
+		for(int i = 0; i<n; i++) {
+			destination += a[i];
+		}
+		
+		Queue<Node> q = new LinkedList<>();
+		
+		q.add(new Node(start,0));
+		
+		if(start == destination) {
+			return 0;
+		}
+		
+		while(q.size()!=0) {
+			temp = q.poll();
+			original = temp.string;
+			
+			for(int j = 2; j<=n;j++) {
+				modified = original;
+				modified = reverse(modified,j);
+				if(modified.equals(destination)) {
+					return temp.steps+1;
+				}
+				q.add(new Node(modified,temp.steps+1));
+			}
+		}
+		
+		return Integer.MIN_VALUE;
+		
+	}
+	
+	public static String reverse(String s, int index) {
+		char temp[] = s.toCharArray();
+		int i = 0;
+		while (i<index) {
+			char c = temp[i];
+			temp[i] = temp[index-1];
+			temp[index-1] =c;
+			i++;
+			index--;
+		}
+		return String.valueOf(temp);
+	}
+	
+	static  class Node{
+		public String string;
+		public int steps;
+		
+		public Node(String string, int steps) {
+			this.string = string;
+			this.steps = steps;
+		}
+	}
+}

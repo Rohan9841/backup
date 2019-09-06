@@ -1,0 +1,242 @@
+Alatin
+Number of cuts:  0
+
+Alpacados
+Number of cuts:  0
+
+AngryOrchard
+Number of cuts:  0
+
+AppleCloud
+Number of cuts:  0
+
+Belenaria
+Number of cuts:  0
+
+BobbyDazzler
+Number of cuts:  0
+
+Bonanza
+Number of cuts:  0
+
+Bradshaw
+Number of cuts:  0
+
+Bryce
+Number of cuts:  0
+
+ChewyVIII
+Number of cuts:  0
+
+CosmicSans
+Number of cuts:  0
+
+Dinger
+Number of cuts:  0
+
+DocB7
+574
+1176
+1371
+2759
+8137
+8604
+8701
+11649
+18473
+20697
+21932
+21989
+22307
+34122
+42216
+43956
+46392
+47821
+48323
+50040
+50359
+53004
+54266
+56101
+56575
+59360
+59973
+62438
+63129
+65988
+72955
+73854
+Number of cuts: 32
+
+  E3
+288
+4854
+13019
+18935
+20098
+25091
+30758
+31986
+32910
+35936
+47443
+48085
+63476
+63764
+66347
+73183
+74147
+74776
+74920
+78710
+79571
+84803
+84925
+88050
+95779
+98196
+103395
+105092
+119883
+124069
+125143
+127907
+128061
+133626
+136605
+141547
+Number of cuts: 36
+
+Erik
+Number of cuts:  0
+
+Espica
+Number of cuts:  0
+
+Finch
+Number of cuts:  0
+
+Gollum
+Number of cuts:  0
+
+Grayson
+Number of cuts:  0
+
+Harlequin
+Number of cuts:  0
+
+Hiro
+Number of cuts:  0
+
+Jace
+Number of cuts:  0
+
+Jester
+Number of cuts:  0
+
+Krishelle
+Number of cuts:  0
+
+Lillie
+Number of cuts:  0
+
+Mahdia
+Number of cuts:  0
+
+Naiad
+Number of cuts:  0
+
+Nancinator
+Number of cuts:  0
+
+Natosaleda
+Number of cuts:  0
+
+Partridge
+Number of cuts:  0
+
+Pepy6
+117
+9243
+10840
+11247
+22355
+24259
+27564
+33436
+34900
+35629
+38147
+71339
+Number of cuts: 12
+
+Peregrin
+Number of cuts:  0
+
+Phrankenstein
+Number of cuts:  0
+
+Pine5
+Number of cuts:  0
+
+Poco6
+117
+4623
+12674
+13082
+14270
+22029
+24250
+26272
+33988
+36922
+38475
+39670
+53000
+61083
+66129
+Number of cuts: 15
+
+Rasputin
+Number of cuts:  0
+
+RER2
+Number of cuts:  0
+
+RexFury
+Number of cuts:  0
+
+RGL3
+Number of cuts:  0
+
+Rhodalysa
+Number of cuts:  0
+
+StCroix
+Number of cuts:  0
+
+Swann
+Number of cuts:  0
+
+Takoda
+Number of cuts:  0
+
+Trina
+Number of cuts:  0
+
+TWAMP
+Number of cuts:  0
+
+UhSalsa
+Number of cuts:  0
+
+Weasels2
+Number of cuts:  0
+
+Yogi
+Number of cuts:  0
+
+Yoncess
+Number of cuts:  0
+

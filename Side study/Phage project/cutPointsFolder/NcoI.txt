@@ -1,0 +1,288 @@
+Alatin
+8090
+Number of cuts:  1
+
+Alpacados
+35363
+Number of cuts:  1
+
+AngryOrchard
+35523
+Number of cuts:  1
+
+AppleCloud
+7784
+Number of cuts:  1
+
+Belenaria
+8090
+Number of cuts:  1
+
+BobbyDazzler
+Number of cuts:  0
+
+Bonanza
+Number of cuts:  0
+
+Bradshaw
+8090
+Number of cuts:  1
+
+Bryce
+Number of cuts:  0
+
+ChewyVIII
+52452
+Number of cuts:  1
+
+CosmicSans
+8090
+Number of cuts:  1
+
+Dinger
+Number of cuts:  0
+
+DocB7
+4833
+10735
+14099
+20401
+21073
+21382
+22312
+23767
+24160
+25363
+26875
+29851
+35477
+36733
+39171
+40709
+46610
+50908
+52980
+53381
+53475
+53916
+56711
+58276
+63243
+63950
+64288
+67207
+69089
+69489
+71857
+Number of cuts: 31
+
+  E3
+3006
+5066
+19499
+20696
+26295
+27489
+30569
+36386
+37578
+39326
+50914
+66823
+68431
+90976
+92830
+92893
+102596
+106918
+108989
+116574
+120846
+124967
+128537
+132997
+Number of cuts: 24
+
+Erik
+8090
+Number of cuts:  1
+
+Espica
+8090
+Number of cuts:  1
+
+Finch
+45582
+81088
+109731
+Number of cuts:  3
+
+Gollum
+8090
+Number of cuts:  1
+
+Grayson
+30949
+Number of cuts:  1
+
+Harlequin
+Number of cuts:  0
+
+Hiro
+8075
+Number of cuts:  1
+
+Jace
+Number of cuts:  0
+
+Jester
+Number of cuts:  0
+
+Krishelle
+8090
+Number of cuts:  1
+
+Lillie
+8090
+Number of cuts:  1
+
+Mahdia
+1325
+1955
+3020
+3526
+6587
+7349
+10337
+10415
+11075
+12323
+13610
+14043
+15653
+15854
+15866
+19140
+22026
+23380
+24557
+25361
+26375
+26705
+27403
+29300
+29744
+30030
+30527
+31192
+32228
+32240
+33167
+33971
+34061
+34397
+35585
+36657
+38125
+Number of cuts: 37
+
+Naiad
+8090
+Number of cuts:  1
+
+Nancinator
+8090
+Number of cuts:  1
+
+Natosaleda
+8090
+Number of cuts:  1
+
+Partridge
+8134
+Number of cuts:  1
+
+Pepy6
+506
+5575
+7705
+12384
+22516
+29638
+30090
+30183
+32901
+33255
+45788
+46948
+62894
+70573
+70975
+76627
+Number of cuts: 16
+
+Peregrin
+Number of cuts:  0
+
+Phrankenstein
+8090
+Number of cuts:  1
+
+Pine5
+Number of cuts:  0
+
+Poco6
+Number of cuts:  0
+
+Rasputin
+Number of cuts:  0
+
+RER2
+8090
+Number of cuts:  1
+
+RexFury
+8121
+Number of cuts:  1
+
+RGL3
+Number of cuts:  0
+
+Rhodalysa
+8090
+Number of cuts:  1
+
+StCroix
+8090
+Number of cuts:  1
+
+Swann
+8090
+Number of cuts:  1
+
+Takoda
+16428
+Number of cuts:  1
+
+Trina
+Number of cuts:  0
+
+TWAMP
+8090
+Number of cuts:  1
+
+UhSalsa
+8090
+Number of cuts:  1
+
+Weasels2
+8505
+123318
+Number of cuts:  2
+
+Yogi
+Number of cuts:  0
+
+Yoncess
+Number of cuts:  0
+

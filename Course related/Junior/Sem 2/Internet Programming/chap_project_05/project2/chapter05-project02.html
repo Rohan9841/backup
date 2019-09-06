@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chapter 5</title>
+    <link rel="stylesheet" href="chapter05-project02.css" />
+</head>
+
+<body>
+    <form method="GET" action="http://www.randyconnolly.com/tests/process.php">
+        <fieldset>
+            <legend>Advanced Art Work Search</legend>
+
+            <div id="searchBox">
+
+                <input type="search" name="search" placeholder="Search titles">Subject:
+                <input type="radio" name="subject" value="0">History
+                <input type="radio" name="subject" value="1">Person
+                <input type="radio" name="subject" value="2">landscape
+
+                <select name="filter">
+                    <option value="0" selected disabled hidden>Select Genre</option>
+                    <option value="1">Baroque</option>
+                    <option value="2">Renaissance</option>
+                    <option value="3">Realism</option>
+                </select>
+
+                <input type="submit" value="Filter">
+
+            </div>
+
+            <div id="settingsBox">
+
+                <select name="actions">
+                    <option value="0" selected disabled hidden>Bulk Actions</option>
+                    <option value="1">Archive</option>
+                    <option value="2">Edit</option>
+                    <option value="3">Delete</option>
+                    <option value="4">Collection</option>
+                </select>
+
+                <input type="submit" value="Apply to All">
+            </div>
+
+            <div id="paintingBox">
+
+                <table>
+                    <caption>Paintings</caption>
+
+                    <tr id="theadRow">
+                        <th></th>
+                        <th>Title</th>
+                        <th>Artist</th>
+                        <th>Year</th>
+                        <th>Genre</th>
+                        <th>Actions</th>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="index[]" value="10"></td>
+                        <td><img src="images/05030.jpg" align="left" />
+                            <p><em>Death of Marat</em></p>
+                        </td>
+                        <td>David, Jacques-Louis</td>
+                        <td>1793</td>
+                        <td>Romanticism</td>
+                        <td>
+                            <button><img src="images/downloadIcon.png" /></button>
+                            <button><img src="images/editIcon.png" /></button>
+                            <button><img src="images/deleteIcon.png" /></button>
+                            <button><img src="images/emailIcon.png" /></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="index[]" value="20"></td>
+                        <td><img src="images/120010.jpg" align="left" />
+                            <p><em>Portrait of Eleanor of Toledo</em></p>
+                        </td>
+                        <td>Bronzino, Agnolo</td>
+                        <td>1545</td>
+                        <td>Mannerism</td>
+                        <td>
+                            <button><img src="images/downloadIcon.png" /></button>
+                            <button><img src="images/editIcon.png" /></button>
+                            <button><img src="images/deleteIcon.png" /></button>
+                            <button><img src="images/emailIcon.png" /></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="index[]" value="30"></td>
+                        <td><img src="images/07020.jpg" align="left" />
+                            <p><em>Liberty Leading the People</em></p>
+                        </td>
+                        <td>Delacroix Eugene</td>
+                        <td>1830</td>
+                        <td>Romanticism</td>
+                        <td>
+                            <button><img src="images/downloadIcon.png" /></button>
+                            <button><img src="images/editIcon.png" /></button>
+                            <button><img src="images/deleteIcon.png" /></button>
+                            <button><img src="images/emailIcon.png" /></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="index[]" value="40"></td>
+                        <td><img src="images/13030.jpg" align="left" />
+                            <p><em>Arrangement in Grey and Black</em></p>
+                        </td>
+                        <td>Whistler, James Abbott</td>
+                        <td>1871</td>
+                        <td>Realism</td>
+                        <td>
+                            <button><img src="images/downloadIcon.png" /></button>
+                            <button><img src="images/editIcon.png" /></button>
+                            <button><img src="images/deleteIcon.png" /></button>
+                            <button><img src="images/emailIcon.png" /></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="index[]" value="50"></td>
+                        <td><img src="images/06010.jpg" align="left" />
+                            <p><em>Mademoiselle Caroline Riviere</em></p>
+                        </td>
+                        <td>Ingres, Jean-Auguste</td>
+                        <td>1806</td>
+                        <td>Neo-Classicism</td>
+                        <td>
+                            <button><img src="images/downloadIcon.png" /></button>
+                            <button><img src="images/editIcon.png" /></button>
+                            <button><img src="images/deleteIcon.png" /></button>
+                            <button><img src="images/emailIcon.png" /></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

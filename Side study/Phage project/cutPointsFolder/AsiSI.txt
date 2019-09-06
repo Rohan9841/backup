@@ -1,0 +1,272 @@
+Alatin
+23088
+42065
+Number of cuts:  2
+
+Alpacados
+22957
+28743
+41888
+Number of cuts:  3
+
+AngryOrchard
+22952
+29242
+Number of cuts:  2
+
+AppleCloud
+12693
+21714
+22990
+34132
+41782
+Number of cuts:  5
+
+Belenaria
+23021
+28772
+41930
+Number of cuts:  3
+
+BobbyDazzler
+23067
+28817
+42036
+Number of cuts:  3
+
+Bonanza
+22995
+28745
+42340
+Number of cuts:  3
+
+Bradshaw
+23021
+41998
+Number of cuts:  2
+
+Bryce
+22996
+28746
+29286
+41744
+Number of cuts:  4
+
+ChewyVIII
+11727
+17190
+23336
+29845
+30262
+42660
+Number of cuts:  6
+
+CosmicSans
+23021
+41989
+Number of cuts:  2
+
+Dinger
+21719
+23004
+Number of cuts:  2
+
+DocB7
+15689
+36887
+Number of cuts:  2
+
+  E3
+84238
+101408
+Number of cuts:  2
+
+Erik
+23020
+28769
+41820
+Number of cuts:  3
+
+Espica
+23021
+28772
+41930
+Number of cuts:  3
+
+Finch
+Number of cuts:  0
+
+Gollum
+23021
+28771
+41931
+Number of cuts:  3
+
+Grayson
+2515
+131416
+Number of cuts:  2
+
+Harlequin
+23026
+28776
+29316
+41779
+Number of cuts:  4
+
+Hiro
+22005
+23281
+29031
+29571
+42250
+Number of cuts:  5
+
+Jace
+16975
+18675
+Number of cuts:  2
+
+Jester
+22957
+28707
+29247
+41710
+Number of cuts:  4
+
+Krishelle
+12999
+22056
+23332
+42358
+Number of cuts:  4
+
+Lillie
+23021
+41989
+Number of cuts:  2
+
+Mahdia
+Number of cuts:  0
+
+Naiad
+23034
+42011
+Number of cuts:  2
+
+Nancinator
+23021
+28772
+41328
+Number of cuts:  3
+
+Natosaleda
+23021
+28771
+41929
+Number of cuts:  3
+
+Partridge
+21782
+23067
+Number of cuts:  2
+
+Pepy6
+Number of cuts:  0
+
+Peregrin
+Number of cuts:  0
+
+Phrankenstein
+22967
+28717
+41935
+Number of cuts:  3
+
+Pine5
+262
+3626
+12860
+13674
+Number of cuts:  4
+
+Poco6
+10744
+20812
+54858
+71486
+Number of cuts:  4
+
+Rasputin
+22991
+28742
+29282
+41960
+Number of cuts:  4
+
+RER2
+23021
+28771
+41989
+Number of cuts:  3
+
+RexFury
+23052
+28802
+29342
+42019
+Number of cuts:  4
+
+RGL3
+Number of cuts:  0
+
+Rhodalysa
+23021
+41989
+Number of cuts:  2
+
+StCroix
+23034
+42011
+Number of cuts:  2
+
+Swann
+23021
+28771
+41987
+Number of cuts:  3
+
+Takoda
+22993
+29284
+Number of cuts:  2
+
+Trina
+Number of cuts:  0
+
+TWAMP
+23021
+41989
+Number of cuts:  2
+
+UhSalsa
+23021
+28772
+41930
+Number of cuts:  3
+
+Weasels2
+Number of cuts:  0
+
+Yogi
+22995
+28745
+42340
+Number of cuts:  3
+
+Yoncess
+22996
+28746
+41747
+Number of cuts:  3
+

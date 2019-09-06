@@ -1,0 +1,313 @@
+Alatin
+46471
+Number of cuts:  1
+
+Alpacados
+46292
+Number of cuts:  1
+
+AngryOrchard
+46396
+Number of cuts:  1
+
+AppleCloud
+46187
+Number of cuts:  1
+
+Belenaria
+46336
+Number of cuts:  1
+
+BobbyDazzler
+46440
+Number of cuts:  1
+
+Bonanza
+46731
+Number of cuts:  1
+
+Bradshaw
+46403
+Number of cuts:  1
+
+Bryce
+27244
+46146
+Number of cuts:  2
+
+ChewyVIII
+13879
+Number of cuts:  1
+
+CosmicSans
+46395
+Number of cuts:  1
+
+Dinger
+46445
+Number of cuts:  1
+
+DocB7
+Number of cuts:  0
+
+  E3
+178
+559
+2982
+3251
+8655
+10004
+17454
+17943
+21349
+21736
+22968
+23952
+26359
+26379
+29457
+29590
+29740
+29917
+38549
+38605
+40010
+40191
+46337
+47266
+47287
+48218
+48269
+49510
+51092
+51802
+51974
+54984
+55642
+55656
+56936
+57865
+58762
+59687
+59989
+60226
+61293
+62185
+62956
+63038
+63824
+64754
+64996
+65325
+65740
+65983
+67428
+67518
+69276
+70338
+73026
+73089
+73761
+73803
+75033
+75410
+77116
+79132
+79323
+79411
+81909
+82237
+82298
+82457
+84978
+86549
+88567
+88583
+88677
+88705
+88748
+89245
+90063
+90125
+91375
+94150
+94842
+95758
+101942
+102521
+103382
+105321
+110582
+111826
+112585
+114700
+115560
+116161
+116213
+116224
+118993
+120740
+123385
+124427
+126128
+127681
+131745
+132797
+133231
+134737
+136027
+136371
+138167
+138446
+139990
+141242
+141341
+141456
+141971
+Number of cuts: 113
+
+Erik
+46227
+Number of cuts:  1
+
+Espica
+46335
+Number of cuts:  1
+
+Finch
+Number of cuts:  0
+
+Gollum
+46334
+Number of cuts:  1
+
+Grayson
+Number of cuts:  0
+
+Harlequin
+27274
+46182
+Number of cuts:  2
+
+Hiro
+46654
+Number of cuts:  1
+
+Jace
+Number of cuts:  0
+
+Jester
+27205
+46113
+Number of cuts:  2
+
+Krishelle
+Number of cuts:  0
+
+Lillie
+46395
+Number of cuts:  1
+
+Mahdia
+Number of cuts:  0
+
+Naiad
+46417
+Number of cuts:  1
+
+Nancinator
+45734
+Number of cuts:  1
+
+Natosaleda
+46326
+46354
+Number of cuts:  2
+
+Partridge
+Number of cuts:  0
+
+Pepy6
+47
+1289
+39362
+49521
+52422
+55207
+58626
+64728
+Number of cuts:  8
+
+Peregrin
+Number of cuts:  0
+
+Phrankenstein
+46340
+Number of cuts:  1
+
+Pine5
+Number of cuts:  0
+
+Poco6
+12045
+33924
+41384
+43301
+51027
+60014
+74004
+Number of cuts:  7
+
+Rasputin
+46367
+Number of cuts:  1
+
+RER2
+46394
+Number of cuts:  1
+
+RexFury
+46425
+Number of cuts:  1
+
+RGL3
+Number of cuts:  0
+
+Rhodalysa
+46395
+Number of cuts:  1
+
+StCroix
+46417
+Number of cuts:  1
+
+Swann
+46394
+Number of cuts:  1
+
+Takoda
+46605
+Number of cuts:  1
+
+Trina
+Number of cuts:  0
+
+TWAMP
+46395
+Number of cuts:  1
+
+UhSalsa
+46336
+Number of cuts:  1
+
+Weasels2
+Number of cuts:  0
+
+Yogi
+46729
+Number of cuts:  1
+
+Yoncess
+46152
+Number of cuts:  1
+

@@ -1,0 +1,41 @@
+package tacos.web;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import tacos.Ingredient;
+import tacos.Taco;
+import tacos.data.IngredientRepository;
+
+@Controller
+@RequestMapping("/design")
+public class DesignController {
+
+	private final IngredientRepository ingredientRepo;
+	
+	@Autowired
+	public DesignController(IngredientRepository ingredientRepo) {
+		this.ingredientRepo = ingredientRepo;
+	}
+	@ModelAttribute
+	public void addIngredientsToModel(Model model) {
+		System.out.println(ingredientRepo.findAll());
+		
+		List<Ingredient> ingredients = new ArrayList<>();
+		ingredientRepo.findAll().forEach(i->ingredients.add(i));
+		System.out.println("This is the arraylist"+ingredients);
+	}
+	@GetMapping
+	public String showDesign(Model model) {
+		model.addAttribute("Taco",new Taco());
+		return "design";
+	}
+	
+}

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with 3d Characters", "Working with 3d Characters.csproj", "{151A990E-76B6-247C-CECF-682C4B3E3179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with 3d Characters.Editor", "Working with 3d Characters.Editor.csproj", "{6EECED27-0935-432E-F96A-869F4C2F6327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151A990E-76B6-247C-CECF-682C4B3E3179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151A990E-76B6-247C-CECF-682C4B3E3179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151A990E-76B6-247C-CECF-682C4B3E3179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151A990E-76B6-247C-CECF-682C4B3E3179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EECED27-0935-432E-F96A-869F4C2F6327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EECED27-0935-432E-F96A-869F4C2F6327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EECED27-0935-432E-F96A-869F4C2F6327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EECED27-0935-432E-F96A-869F4C2F6327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

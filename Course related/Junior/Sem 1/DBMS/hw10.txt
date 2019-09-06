@@ -1,0 +1,95 @@
+-- Rohan Maharjan 
+
+--Retrieves he names of all employees in department 5 who work more than 10 hours
+SELECT  E.Fname, E.Minit, E.Lname
+FROM employee E, works_on W, projects P
+WHERE E.Dno = 5 AND
+E.Ssn = W.Essn AND
+W.Pno = P.Pnumber AND
+P.Pname = 'ProductX' AND
+W.hours > 10;
+
+-- Lists the names of all employees who have a dependent with the same first name as themselves
+SELECT E.Fname, E.Minit, E.Lname
+FROM employee E, dependent D
+WHERE E.Ssn = D.Essn AND
+E.Fname = D.Dependent_name;
+
+-- Finds the names of all employees  who are directly supervised by 'Franklin Wong'
+SELECT E.Fname, E.Minit, E.Lname
+FROM employee E, employee Em
+WHERE Em.Fname = 'Franklin' AND Em.Lname = 'Wong' AND
+E.Super_ssn = Em.Ssn;
+
+--For each project, lists the project name and the total hours per week spent on that project 
+SELECT Pname,SUM(hours)
+FROM works_on W, project P
+WHERE P.Pnumber = W.Pno
+GROUP BY Pname;
+
+--Retrieves names of all employees who work in every project
+SELECT Fname, Minit, Lname 
+FROM employee, works_on, project
+WHERE Ssn = Essn AND
+Pno = Pnumber
+GROUP BY Name
+HAVING COUNT(*) = (SELECT COUNT(Pnumber) FROM project);
+
+--Retrieves names of all employees who work on 3 or more projects
+SELECT Fname, Minit, Lname
+FROM emplyee, works_on
+WHERE Ssn = Essn
+GROUP BY Name
+HAVING COUNT(*) >= 3; 
+
+--Retrieves nameS of all employees who works on fewer than 3 projects
+SELECT Fname, Minit, Lname
+FROM employee, works_on
+WHERE Ssn = Essn
+GROUP BY Name
+HAVING COUNT(*) < 3;
+
+--Retreives names of all employees who do not work on any project
+SELECT Fname, Minit, Lname
+FROM employee
+WHERE NOT EXISTS(
+	SELECT Essn
+	FROM works_on
+	WHERE Ssn = Essn;
+);
+
+--Retreives department name and the average salary of all employees working in that department.
+SELECT Dname, AVG(Salary) AS Average Salary
+FROM department, employee
+WHERE Dnumber = Dno
+GROUP BY Dname;
+
+--Retrieves average salary of all female employees
+SELECT AVG(Salary) 'Female Average Salary'
+FROM employee
+WHERE Sex = 'F';
+
+--Finds the names and addresses of all employees who work on at least one project located in Houston but whose department has no location in Houston
+SELECT Fname, Minit, Lname, Address
+FROM employee, works_on, project
+WHERE Ssn = Essn AND
+Pnumber = Pno AND
+Plocation = "Houson" AND
+NOT EXISTS(
+	SELECT Dnumber
+	FROM Dept_locations
+	WHERE Dnumber = Dno AND
+	Dlocation = 'Houston';
+);
+
+--Lists the last names of all department managers who have no dependents
+SELECT Lname
+FROM employee, department
+WHERE Ssn = Mgr_Ssn AND
+Dnumber = Dno AND
+NOT EXISTS(
+	SELECT Essn 
+	FROM dependent
+	WHERE Mgr_Ssn = Essn;
+);
+ 

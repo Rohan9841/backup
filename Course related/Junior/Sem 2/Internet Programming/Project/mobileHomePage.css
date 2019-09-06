@@ -1,0 +1,309 @@
+/* -----------------------------------Home page CSS ------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #464C73;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    border: 0.1em solid black;
+    padding-bottom: 1em;
+    background-color: white;
+}
+
+body header h1 {
+    font-size: 200%;
+    position: relative;
+    left: 22%;
+    float: left;
+}
+
+#navBarPic {
+    width: 3em;
+    position: relative;
+    left: 25%;
+    top: 0.5em;
+}
+
+#navBarPic:hover {
+    width: 3.05em;
+}
+
+#navLinks {
+    position: absolute;
+    top: 4em;
+    display: none;
+    background-color: white;
+    width: 100%;
+    height: 500%;
+    border: 0.1em solid black;
+}
+
+#navLinks ul li {
+    position: relative;
+    top: 4em;
+    list-style-type: none;
+    text-align: center;
+    margin: 2em;
+}
+
+a {
+    font-size: 130%;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+#homePage {
+    width: 100%;
+    border-bottom: none;
+}
+
+#homePic {
+    opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 3%;
+    border: 0.1em solid black;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover #homePic {
+    opacity: 0.4;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: white;
+    color: #464C73;
+    padding: 1em;
+}
+
+#homePage article {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 3%;
+    border: 0.1em solid black;
+    margin-bottom: 1em;
+}
+
+#homePage article:hover {
+    background-color: rgb(218, 220, 234);
+}
+
+#homePage article h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+#homePage article p {
+    font-size: 115%;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    border: 0.1em solid black;
+    border-top: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+footer section {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1em solid black;
+    border-radius: 3%;
+    background-color: white;
+    padding: 0.5em;
+}
+
+footer section:hover {
+    background-color: rgb(218, 220, 234);
+}
+
+/* -----------------------------------Education page CSS ------------------------------------*/
+
+#educationBody {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#educationBody h1 {
+    color: white;
+    text-decoration: underline;
+}
+
+#educationBody ol {
+    border: 0.1em solid black;
+    border-radius: 2%;
+    background-color: white;
+    padding: 1em;
+}
+
+#educationBody ol li {
+    margin-left: 1em; 
+    font-size: 105%;
+}
+
+#educationBody ol li:hover {
+    background-color: rgb(218, 220, 234);
+}
+
+#educationBody ol li span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* -----------------------------------Project page CSS ------------------------------------*/
+
+#projectBody {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projectBody h1 {
+    color: white;
+    text-decoration: underline;
+}
+
+#projectBody ol {
+    border: 0.1em solid black;
+    border-radius: 2%;
+    background-color: white;
+    padding: 1em; 
+}
+
+#projectBody ol li {
+    margin-left: 1em; 
+    font-size: 105%;
+}
+
+#projectBody ol li:hover {
+    background-color: rgb(218, 220, 234);
+}
+
+#projectBody ol li p 
+{
+    font-style: italic;
+}
+
+/* -----------------------------------Resume page CSS ------------------------------------*/
+
+#resumeBody
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resumeBody h1 
+{
+    color: white;
+    text-decoration: underline;
+}
+
+#container 
+{
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 2%;
+    padding: 1em; 
+}
+
+#container:hover
+{
+    background-color: rgb(218, 220, 234);
+}
+#container h3
+{
+    text-decoration: underline;
+}
+
+#container label 
+{
+    font-weight: bold;
+}
+
+
+
+/* -----------------------------------Contact page CSS ------------------------------------*/
+
+#contactBody 
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactBody h1 
+{
+    color: white;
+    text-decoration: underline;
+}
+
+#form 
+{
+    background-color: white;
+    padding: 1em;
+    border: 0.1em solid black;
+    border-radius: 2%;
+}
+
+#form label 
+{
+    font-weight: bold;
+}
+
+#form fieldset legend
+{
+    margin:auto;
+    font-size: 120%;
+}
+
+#form input 
+{
+    padding: 1em;
+    border-radius: 2%;
+}
+
+#form input:hover 
+{
+    background-color: rgb(218, 220, 234);
+}
+
+#submitButton
+{
+    font-weight: bold;
+}
+

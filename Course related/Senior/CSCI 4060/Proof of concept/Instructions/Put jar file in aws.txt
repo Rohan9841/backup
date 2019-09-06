@@ -1,0 +1,3 @@
+upload the jar file to s3 bucket
+in putty do wget link from s3 .
+type java -jar pom2.jar

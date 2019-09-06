@@ -1,0 +1,52 @@
+package tacos;
+
+import java.util.Arrays;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+import tacos.data.IngredientRepository;
+import tacos.data.TacoRepository;
+
+@Configuration
+public class DevelopmentConfig {
+
+	@Bean
+	public CommandLineRunner dataLoader(IngredientRepository repo, TacoRepository tacoRepo) { // user repo for ease of
+																								// testing with a
+																								// built-in user
+		return new CommandLineRunner() {
+			@Override
+			public void run(String... args) throws Exception {
+
+				Taco taco1 = new Taco();
+				taco1.setName("Carnivore");
+				taco1.setIngredients(Arrays.asList(new Ingredient("FLTO", "Flour Tortilla", "WRAP"),
+						new Ingredient("COTO", "Corn Tortilla", "WRAP"),
+						new Ingredient("GRBF", "Ground Beef", "PROTEIN"), new Ingredient("CARN", "Carnitas", "PROTEIN"),
+						new Ingredient("TMTO", "Diced Tomatoes", "VEGGIES"),
+						new Ingredient("LETC", "Lettuce", "VEGGIES"), new Ingredient("CHED", "Cheddar", "CHEESE"),
+						new Ingredient("JACK", "Monterrey Jack", "CHEESE"), new Ingredient("SLSA", "Salsa", "SAUCE"),
+						new Ingredient("SRCR", "Sour Cream", "SAUCE")));
+				tacoRepo.save(taco1);
+
+				Taco taco2 = new Taco();
+				taco2.setName("Bovine Bounty");
+				taco2.setIngredients(Arrays.asList(new Ingredient("FLTO", "Flour Tortilla", "WRAP"),
+						new Ingredient("COTO", "Corn Tortilla", "WRAP"),
+						new Ingredient("GRBF", "Ground Beef", "PROTEIN")));
+				tacoRepo.save(taco2);
+
+				Taco taco3 = new Taco();
+				taco3.setName("Veg-Out");
+				taco3.setIngredients(Arrays.asList(new Ingredient("LETC", "Lettuce", "VEGGIES"),
+						new Ingredient("CHED", "Cheddar", "CHEESE"), new Ingredient("JACK", "Monterrey Jack", "CHEESE"),
+						new Ingredient("SLSA", "Salsa", "SAUCE"), new Ingredient("SRCR", "Sour Cream", "SAUCE")));
+				tacoRepo.save(taco3);
+
+			}
+		};
+	}
+
+}

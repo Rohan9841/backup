@@ -1,0 +1,493 @@
+<html>
+
+    <head>
+
+        <title>Engyme cut</title>
+
+        <style type="text/css">
+
+            #contentBox{
+
+                background-color:bisque;
+                width:1325px;
+                margin: 0 auto;
+
+            }
+
+            #phages{
+
+                float:left;
+
+            }
+
+            #dropDownPhage{
+
+                position:relative;
+                left:50px;
+                top:15px;
+
+            }
+
+            .clear{
+
+                clear:both;
+
+            }
+
+            #enzymes{
+
+                float:left;
+
+            }
+
+            #dropDownEnzyme{
+
+                position:relative;
+                left:38px;
+                top:15px;
+
+            }
+
+            #myCanvas
+            {
+
+                border: 1px solid black;
+
+            }
+
+        </style>
+
+        <script src="jquery.js"></script>
+        <script src = "jquery-ui/jquery-ui.js"></script>
+        <link rel = "stylesheet" href = "jquery-ui/jquery-ui.css">
+
+    </head>
+
+    <body>
+
+        <div id="contentBox">
+
+            <div id = "tab">
+
+                <ul>
+
+                    <li><a href = "#searchCriteria">Search Criteria</a></li>
+                    <li><a href = "#myCanvas">Visualization</a></li>
+
+                </ul>
+
+                <div id = "searchCriteria">
+
+                    <p id="phages">Phages:</p>
+
+                    <div id="dropDownPhage">
+
+                        <select class="phageList" autofocus>
+
+                            <option value="Alatin">Alatin</option>
+                            <option value="Alpacados">Alpacados</option>
+                            <option value="AngryOrchard">AngryOrchard</option>
+                            <option value="AppleCloud">AppleCloud</option>
+                            <option value="Belenaria">Belenaria</option>
+                            <option value="BobbyDazzler">BobbyDazzler</option>
+                            <option value="Bonanza">Bonanza</option>
+                            <option value="Bradshaw">Bradshaw</option>
+                            <option value="Bryce">Bryce</option>
+                            <option value="ChewyVIII">ChewyVIII</option>
+                            <option value="CosmicSans">CosmicSans</option>
+                            <option value="Dinger">Dinger</option>
+                            <option value="DocB7">DocB7</option>
+                            <option value="E3">E3</option>
+                            <option value="Erik">Erik</option>
+                            <option value="Espica">Espica</option>
+                            <option value="Finch">Finch</option>
+                            <option value="Gollum">Gollum</option>
+                            <option value="Grayson">Grayson</option>
+                            <option value="Harlequin">Harlequin</option>
+                            <option value="Hiro">Hiro</option>
+                            <option value="Jace">Jace</option>
+                            <option value="Jester">Jester</option>
+                            <option value="Krishelle">Krishelle</option>
+                            <option value="Lillie">Lillie</option>
+                            <option value="Mahdia">Mahdia</option>
+                            <option value="Naiad">Naiad</option>
+                            <option value="Nancinator">Nancinator</option>
+                            <option value="Natosaleda">Natosaleda</option>
+                            <option value="Partridge">Partridge</option>
+                            <option value="Pepy6">Pepy6</option>
+                            <option value="Peregrin">Peregrin</option>
+                            <option value="Phrankenstein">Phrankenstein</option>
+                            <option value="Pine5">Pine5</option>
+                            <option value="Poco6">Poco6</option>
+                            <option value="Rasputin">Rasputin</option>
+                            <option value="RER2">RER2</option>
+                            <option value="RexFury">RexFury</option>
+                            <option value="RGL3">RGL3</option>
+                            <option value="Rhodalysa">Rhodalysa</option>
+                            <option value="StCroix">StCroix</option>
+                            <option value="Swann">Swann</option>
+                            <option value="Takoda">Takoda</option>
+                            <option value="Trina">Trina</option>
+                            <option value="TWAMP">TWAMP</option>
+                            <option value="UhSalsa">UhSalsa</option>
+                            <option value="Weasels2">Weasels2</option>
+                            <option value="Yogi">Yogi</option>
+                            <option value="Yoncess">Yoncess</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <p id="enzymes">Enzymes:</p>
+
+                    <div id="dropDownEnzyme">
+
+                        <select class="enzymeList">
+
+                            <option value="AbaSI">AbaSI</option>
+                            <option value="AciI">AciI</option>
+                            <option value="AhdI">AhdI</option>
+                            <option value="AleI">AleI</option>
+                            <option value="AlwI">AlwI</option>
+                            <option value="AlwNI">AlwNI</option>
+                            <option value="ApeKI">ApeKI</option>
+                            <option value="ApoI">ApoI</option>
+                            <option value="AscI">AscI</option>
+                            <option value="AvrII">AvrII</option>
+                            <option value="BaeI">BaeI</option>
+                            <option value="BaeGI">BaeGI</option>
+                            <option value="BanI">BanI</option>
+                            <option value="BbsI">BbsI</option>
+                            <option value="BbvI">BbvI</option>
+                            <option value="BbvCI">BbvCI</option>
+                            <option value="BccI">BccI</option>
+                            <option value="BceAI">BceAI</option>
+                            <option value="BcgI">BcgI</option>
+                            <option value="BciVI">BciVI</option>
+                            <option value="BcoDI">BcoDI</option>
+                            <option value="BfaI">BfaI</option>
+                            <option value="BfuAI">BfuAI</option>
+                            <option value="BfuCI">BfuCI</option>
+                            <option value="BlpI">BlpI</option>
+                            <option value="BmgBI">BmgBI</option>
+                            <option value="BmrI">BmrI</option>
+                            <option value="BpuEI">BpuEI</option>
+                            <option value="BsaI">BsaI</option>
+                            <option value="BsaAI">BsaAI</option>
+                            <option value="BsaBI">BsaBI</option>
+                            <option value="BsaHI">BsaHI</option>
+                            <option value="BsaJI">BsaJI</option>
+                            <option value="BsaWI">BsaWI</option>
+                            <option value="BsaXI">BsaXI</option>
+                            <option value="BseRI">BseRI</option>
+                            <option value="BseYI">BseYI</option>
+                            <option value="BsgI">BsgI</option>
+                            <option value="BsiEI">BsiEI</option>
+                            <option value="BsiHKAI">BsiHKAI</option>
+                            <option value="BsiWI">BsiWI</option>
+                            <option value="BslI">BslI</option>
+                            <option value="BsmAI">BsmAI</option>
+                            <option value="BsmBI">BsmBI</option>
+                            <option value="BsmFI">BsmFI</option>
+                            <option value="BsoBI">BsoBI</option>
+                            <option value="BspCNI">BspCNI</option>
+                            <option value="BspDI">BspDI</option>
+                            <option value="BspEI">BspEI</option>
+                            <option value="BspHI">BspHI</option>
+                            <option value="BspMI">BspMI</option>
+                            <option value="BspQI">BspQI</option>
+                            <option value="BsrI">BsrI</option>
+                            <option value="BsrBI">BsrBI</option>
+                            <option value="BsrDI">BsrDI</option>
+                            <option value="BsrFI">BsrFI</option>
+                            <option value="BsrGI">BsrGI</option>
+                            <option value="BssSI">BssSI</option>
+                            <option value="BstBI">BstBI</option>
+                            <option value="BstNI">BstNI</option>
+                            <option value="BstUI">BstUI</option>
+                            <option value="BstYI">BstYI</option>
+                            <option value="BstZ17I">BstZ17I</option>
+                            <option value="Bsu36I">Bsu36I</option>
+                            <option value="BtgI">BtgI</option>
+                            <option value="BtgZI">BtgZI</option>
+                            <option valule="BtsI">BtsI</option>
+                            <option value="BtsIMutI">BtsIMutI</option>
+                            <option value="BtsCI">BtsCI</option>
+                            <option value="Cac8I">Cac8I</option>
+                            <option value="CspCI">CspCI</option>
+                            <option value="CviAII">CviAII</option>
+                            <option value="CviKI-1">CviKI-1</option>
+                            <option value="CviQI">CviQI</option>
+                            <option value="DpnII">DpnII</option>
+                            <option value="DrdI">DrdI</option>
+                            <option value="EagI">EagI</option>
+                            <option value="EarI">EarI</option>
+                            <option value="EciI">EciI</option>
+                            <option value="EcoNI">EcoNI</option>
+                            <option value="Eco53kI">Eco53kI</option>
+                            <option value="Fnu4HI">Fnu4HI</option>
+                            <option value="FseI">FseI</option>
+                            <option value="FspEI">FspEI</option>
+                            <option value="HinP1I" selected>HinP1I</option>
+                            <option value="Hpy99I">Hpy99I</option>
+                            <option value="Hpy166II">Hpy166II</option>
+                            <option value="Hpy188I">Hpy188I</option>
+                            <option value="Hpy188III">Hpy188III</option>
+                            <option value="HpyAV">HpyAV</option>
+                            <option value="HpyCH4III">HpyCH4III</option>
+                            <option value="HpyCH4IV">HpyCH4IV</option>
+                            <option value="HpyCH4V">HpyCH4V</option>
+                            <option value="KasI">KasI</option>
+                            <option value="LpnPI">LpnPI</option>
+                            <option value="MluCI">MluCI</option>
+                            <option value="MlyI">MlyI</option>
+                            <option value="MmeI">MmeI</option>
+                            <option value="MscI">MscI</option>
+                            <option value="MseI">MseI</option>
+                            <option value="MslI">MslI</option>
+                            <option value="MspJI">MspJI</option>
+                            <option value="MwoI">MwoI</option>
+                            <option value="NgoMIV">NgoMIV</option>
+                            <option value="NlaIII">NlaIII</option>
+                            <option value="NlaIV">NlaIV</option>
+                            <option value="NmeAIII">NmeAIII</option>
+                            <option value="NspI">NspI</option>
+                            <option value="PaeR7I">PaeR7I</option>
+                            <option value="pflFI">pflFI</option>
+                            <option value="pflMI">pflMI</option>
+                            <option value="pleI">pleI</option>
+                            <option value="PluTI">PluTI</option>
+                            <option value="PmeI">PmeI</option>
+                            <option value="PmlI">PmlI</option>
+                            <option value="PpuMI">PpuMI</option>
+                            <option value="PspGI">PspGI</option>
+                            <option value="RsrII">RsrII</option>
+                            <option value="SapI">SapI</option>
+                            <option value="SfcI">SfcI</option>
+                            <option value="SfoI">SfoI</option>
+                            <option value="SgrAI">SgrAI</option>
+                            <option value="SmlI">SmlI</option>
+                            <option value="SrfI">SrfI</option>
+                            <option value="StyD4I">StyD4I</option>
+                            <option value="TfiI">TfiI</option>
+                            <option value="TseI">TseI</option>
+                            <option value="Tsp45I">Tsp45I</option>
+                            <option value="TspMI">TspMI</option>
+                            <option value="TspRI">TspRI</option>
+                            <option value="XcmI">XcmI</option>
+                            <option value="XmnI">XmnI</option>
+
+
+                        </select>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <br>
+
+                    <button id="submitButton">Submit</button>
+
+                </div>
+
+                <canvas id = "myCanvas" height = 800 width = 800></canvas>
+
+            </div>
+
+            <Script type = "text/javascript">
+
+                var availablePhageTags = ["Rohan","Maharjan"];
+
+                $(".phageList").autocomplete({
+                    source: availablePhageTags
+                });
+
+                $("#tab").tabs();
+
+                var canvas = document.getElementById("myCanvas");
+
+                var context = canvas.getContext("2d");
+
+                var linePosition = (canvas.height)/2;
+
+                var startLine = (6.25/100)*canvas.width;
+                var endLine = (93.75/100)*canvas.width;
+
+                var circleRadius = (0.24/100)*canvas.width;
+                var circleAngle = 2*Math.PI;
+
+                var posOfCuts = [<?php 
+
+                    function test(){
+                        
+                        include ('connection.php');
+                        $sqll = ("SELECT phase_name,enzyme,cutpoints FROM cutpoints");
+                        $stmtt=$conn->prepare($sqll);
+                        $stmtt->execute();
+                        $stmtt->bind_result($phase_name,$enzyme,$cutpoints);
+                        while($stmtt->fetch()) {
+                            $out[] = $cutpoints;
+                        }
+                        return $out;
+                    }
+                    $re=test();
+                    echo '"'.implode('","',  $re ).'"'; 
+                    //echo '"'.implode('","',  $disabledDaysRange ).'"' 
+                    ?>
+                ];
+                
+                console.log(posOfCuts);
+
+                var textLine = linePosition+100;
+
+                var realPos = 0;
+
+                var basePair = 46673;
+
+                $("#submitButton").click(function(){
+
+                    context.beginPath();
+                    context.fillStyle = "black";
+                    context.font = "15px Arial";
+                    context.fillText("0",startLine-8,textLine-85);
+                    context.fillText(basePair,endLine,textLine-85);
+                    context.stroke();
+                    context.closePath();
+
+                    context.beginPath();
+                    context.moveTo(startLine,linePosition);
+                    context.lineTo(endLine,linePosition);
+                    context.strokeStyle = "black";
+                    context.stroke();
+                    context.closePath();
+                    
+                    if($(".phageList").val() == "Alatin" && $(".enzymeList").val() == "HinP1I")
+                    {
+
+                        for(var i = 0; i< posOfCuts.length; i++)
+                        {
+                            realPos = ((endLine-startLine)/basePair)*posOfCuts[i];
+
+                            context.fillStyle = "red";
+                            context.beginPath();
+                            context.arc(startLine+realPos,linePosition,circleRadius,0,circleAngle);
+                            context.closePath();
+                            context.fill();
+                        }
+                    }
+
+                    context.beginPath();
+                    context.fillStyle = "black";
+                    context.font = "20px Arial";
+                    context.fillText($(".enzymeList").val() + " cuts " + $(".phageList").val()+" "+posOfCuts.length +" times.",startLine,textLine);
+                    context.stroke();
+                    context.closePath();
+
+                    $("#tab").tabs("option","active",$("#tab").tabs("option","active")+1)
+
+                })
+
+
+
+            </Script>
+
+        </div>
+
+
+
+    </body>
+
+</html>
+<!--
+<?php
+                        function insert_cutpoints ($cutpoints){
+                        include('connection.php');
+                        $phase_name='Alatin'; 
+                        $enzyme='HinP1I';
+                        foreach ($cutpoints as $element ){   
+
+                            $in= $conn->prepare("INSERT INTO cutpoints(phase_name,enzyme, cutpoints) VALUES (?,?,?)");
+
+                            $in->bind_param ('ssi',$phase_name,$enzyme,$element);
+
+                            if($in->execute())    
+                            {  
+                                echo "It's working";
+                            }
+                            else {
+
+                                echo "Its not<br>";
+                            }
+
+                        }
+                    }
+
+
+                    // Calling the $insert_cutpoints function
+
+                    //$cutpoints=array(17159,17241,32550,42357);
+                    //insert_cutpoints("Alatin",$cutpoints);
+
+                    $posOfCuts = array();
+
+                    //CALL THIS FUNCTION TO INSERT THE CUTPOINTS IN THE DATABSE cutpoints TABLE
+                    //insert_cutpoints($posOfCuts);
+
+                    /*
+
+   $enzyme_name = "Rohan";
+   $phage_name = "Alatin";
+   $base_pair = NULL;
+ include('connection.php');
+ $insert= $conn->prepare("INSERT INTO data(phase_name,enzyme_name,base_pair) VALUES (?,?,?)");
+
+ 			$insert->bind_param ('ssi', $phage_name,$enzyme_name,$base_pair);
+
+
+
+ 			if($insert->execute())
+
+ 			{
+
+
+ 				//echo "It's working";
+
+
+
+ 			}
+
+$out="";
+$count_string=0;
+$count_int=0;
+
+$handle = fopen("C:/xampp/htdocs/dashboard/hello/AatII.txt", "r");
+if ($handle) {
+    while (($line = fgets($handle)) !== false) {
+        // process the line read.
+        echo $line;
+           echo "<br>";   
+        if (is_string($line)){
+        //    $count_string++;
+        }
+
+        if (is_numeric($line)){
+       //      $count_string++;
+         }
+
+
+
+    }
+
+    //  echo $count_string;
+    //      echo $count_int;
+    fclose($handle);
+} 
+else {
+    // error opening the file.
+} 
+	*/	
+?>
+
+-->

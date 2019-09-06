@@ -1,0 +1,1 @@
+fastboot flash recovery Letv-X620-Stock.img

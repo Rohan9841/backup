@@ -1,0 +1,100 @@
+html
+{
+    background-image: url('images/art-background4.jpg');
+    height: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    font-family: Merriweather;
+}
+
+header
+{
+    color: white;
+    background-color: black;
+    box-shadow: 1em 1em rgba(33,33,33,0.5);
+    margin-bottom: 5em;
+    margin-left: 2em;
+}
+
+header h1
+{
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+header h2 
+{
+    margin-left: 2.5em;
+}
+
+main
+{
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 1.5em 0.75em 0.2em rgba(33,33,33,0.5);
+    border: 0.05em solid black;
+    width: 29em;
+    height: 11.5em;
+    margin-bottom: 2em; 
+    margin-left: 2em;
+    font-weight: bold;
+}
+
+main h2
+{
+    background-color: rgba(224,224,224,0.5);
+    height: 1.5em;
+    padding: 0.75em;
+    font-size: 1.15em;
+}
+
+#announcement 
+{
+    padding-left: 0.75em;
+    padding-top: 0.75em;
+}
+
+#timeline
+{
+    margin-left: 0.75em;
+    margin-right: 11em;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border: 0.05em solid black;
+    background-color: rgba(66,66,66,0.5);
+    color: white;
+}
+
+#footnote
+{
+    margin-left: 0.75em;
+    color: rgb(255, 102, 0);
+}
+
+footer
+{
+    background-color: black;
+    box-shadow: 1.5em 0.75em 0.2em rgba(33,33,33,0.5);
+    color: white;
+    margin-left: 2em;
+    width: 29em;
+    height: 12.5em;
+}
+
+footer h2 
+{
+    padding: 0.75em;
+}
+
+footer div 
+{
+    margin-left: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+footer div img 
+{
+    margin-right: 0.5em;
+    border: 0.05em solid grey;
+}

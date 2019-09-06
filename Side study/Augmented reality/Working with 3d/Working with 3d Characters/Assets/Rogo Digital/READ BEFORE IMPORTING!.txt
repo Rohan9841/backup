@@ -1,0 +1,14 @@
+Please follow these instructions when importing, or LipSync Lite may not work correctly.
+
+If you have not had any version of LipSync Lite in this project before, double click the LipSync Lite 1.401 package and import everything.
+
+If you currently have LipSync Lite (any version) in this project:
+ 1) Click File > New Scene.
+ 2) Copy any presets (Rogo Digital/LipSync/Presets) and custom Blend Systems (Rogo Digital/LipSync/BlendSystems) from their folders to somewhere outside the project folder.
+ 3) Delete the following files/folders:
+    - Editor Default Resources/Rogo Digital/LipSync
+    - Plugins/Editor/Rogo Digital/LipSync-Lite-CSharp-Editor.dll
+    - Plugins/Rogo Digital/LipSync-Lite-CSharp.dll
+    - Rogo Digital/LipSync
+ 4) Double click the LipSync Lite 1.401 package and import everything.
+ 5) Return any Blend Systems or presets you backed up to their correct folders.

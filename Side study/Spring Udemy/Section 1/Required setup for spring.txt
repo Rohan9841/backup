@@ -1,0 +1,4 @@
+1. Install Java 
+2. Install javac
+3. Install maven
+4. Install Gradle

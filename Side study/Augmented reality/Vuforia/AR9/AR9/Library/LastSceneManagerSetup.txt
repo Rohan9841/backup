@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Datafiles/Scenes/MidAirScene.unity
+  isLoaded: 1
+  isActive: 1

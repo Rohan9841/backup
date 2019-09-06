@@ -1,0 +1,8 @@
+Enter e2 instance from putty
+Go to the database in RDS: mysql -h student-dev1.cnymyfkgy4hj.us-east-1.rds.amazonaws.com -u Rohan -p Rohan9841
+Type show databases;
+Type use studentsDevDB;
+Type show tables;
+Type select * from ingredient; to see the contents of the RDS
+Type exit to come out of mysql
+

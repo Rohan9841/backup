@@ -1,0 +1,111 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2017-07-11] XAMPP for Windows 5.6.31-0
+This version of XAMPP includes:
+    - Updated MariaDB to 10.1.25
+    - Updated phpMyAdmin to 4.7.0
+    - Updated PHP to 5.6.31
+    - Add UTF8 and Unicode Properties support to PCRE
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2017-02-01] XAMPP for Windows 5.6.30-0
+This version of XAMPP includes:
+    - Updated PHP to 5.6.30
+    - Updated MariaDB to 10.1.21 (Security release CVE-2016-6664 CVE-2017-3238)
+    - Updated Apache to 2.4.25
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-12-21] XAMPP for Windows 5.6.28-1
+This version of XAMPP includes:
+   - Fixed XAMPP Control Panel Overflow DOS
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-11-15] XAMPP for Windows 5.6.28-0
+This version of XAMPP includes:
+   - Updated PHP to 5.6.28
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-11-10] XAMPP for Windows 5.6.24-1
+This version of XAMPP includes:
+    - Updated MariaDB to 10.1.19 (CVE-2016-6663 CVE-2016-6664)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-08-31] XAMPP for Windows 5.6.24-0
+This version of XAMPP includes:
+    - Updated PHP to 5.6.24
+    - Updated MariaDB to 10.1.16
+    - Updated Apache to 2.4.23
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-06-28] XAMPP for Windows 5.6.23-0
+This version of XAMPP includes:
+    - Updated PHP to 5.6.23
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-05-12] XAMPP for Windows 5.6.21-0
+This version of XAMPP includes:
+    - Updated PHP to 5.6.21 (Security release CVE-2016-3074)
+    - Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-04-21] XAMPP for Windows 5.6.20
+This version of XAMPP includes:
+    - Updated PHP to 5.6.20
+    - Updated MariaDB to 10.1.13
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-03-04] XAMPP for Windows 5.6.19-0
+This version of XAMPP includes:
+    - Updated PHP to 5.6.19
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2016-02-24] XAMPP for Windows 5.6.15-2
+This version of XAMPP includes:
+    - Fixed issue with phpMyAdmin
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2015-12-06] XAMPP for Windows 5.6.15-0
+This version of XAMPP includes:
+    - Updated PHP to 5.6.15
+    - OpenSSL 1.0.1q
+    - Fixed phpMyAdmin issues with pma database
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2015-11-13] XAMPP for Windows 5.6.14-3
+This version of XAMPP includes:
+    - Updated MariaDB to 10.1.8
+    - Updated phpMyAdmin 4.5.1
+    - Fixed issue starting/stopping MariaDB from the Control Panel
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2015-10-19] XAMPP for Windows 5.6.14
+This version of XAMPP includes:
+    - Updated Apache to 2.4.17
+    - Updated PHP to 5.6.14
+    - Added MariaDB 10.0.17
+    - Updated phpMyAdmin 4.5.0.2
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2015-07-23] XAMPP for Windows 5.6.11
+This version of XAMPP includes:
+    - Updated PHP to 5.6.11
+    - Updated MySQL to 5.6.25
+    - Updated phpMyAdmin to 4.4.12
+    - Update OpenSSL to 1.0.1p
+    - Updated XDebug to 2.2.5
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

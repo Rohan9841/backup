@@ -1,0 +1,118 @@
+
+body 
+{
+    background-color: #ECEFF1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: white;
+    background-image: url("images/background.png");
+}
+
+header 
+{
+    color: white;
+    background-color: #263238;
+    padding-top: 1em;
+}
+
+dd
+{
+    position: relative;
+    left: 2em;
+    top: -1.2em;
+}
+header h2
+{
+    font-size: 150%;
+    padding: 0.5em 0em 0.5em 3em;
+}
+
+nav
+{
+    background-color: #607D8B;
+}
+ul{
+    padding-left: 4.5em;
+}
+ul li
+{
+    display: inline;
+    margin-right: 0.5em;
+}
+
+ul li a:hover
+{
+    background-color: #FF3D00;
+    color: white;
+}
+
+a
+{
+    color: #03A9F4;
+}
+
+section
+{
+    background-color: #ECEFF1;
+}
+
+#photo
+{
+    padding-top: 1.5em;
+}
+
+figure img
+{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2em;
+  border: 0.05em solid #607D8B;
+}
+
+figcaption p
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#personal,#customers,aside
+{
+    margin-left: 4em;
+    margin-right: 4em;
+    border: 0.1em solid #607D8B;
+    margin-bottom: 0.75em;
+}
+
+#personal h2,#personal dl, #customers h2, #customers p, aside h3, aside div  
+{
+    padding: 0.5em;
+}
+
+
+span
+{
+    color: #FF3D00;
+}
+
+#buttonDiv
+{
+    background-color: #607D8B;
+    padding: 0.2em;
+}
+
+button 
+{
+    background-color: #FF3D00;
+    border-radius: 15%;
+}
+footer 
+{
+    color: white;
+    background-color: #263238;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}

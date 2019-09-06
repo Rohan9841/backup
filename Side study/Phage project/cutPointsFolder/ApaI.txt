@@ -1,0 +1,168 @@
+Alatin
+Number of cuts:  0
+
+Alpacados
+Number of cuts:  0
+
+AngryOrchard
+Number of cuts:  0
+
+AppleCloud
+Number of cuts:  0
+
+Belenaria
+Number of cuts:  0
+
+BobbyDazzler
+Number of cuts:  0
+
+Bonanza
+Number of cuts:  0
+
+Bradshaw
+Number of cuts:  0
+
+Bryce
+Number of cuts:  0
+
+ChewyVIII
+17644
+17797
+38034
+44833
+46789
+52045
+64339
+Number of cuts:  7
+
+CosmicSans
+Number of cuts:  0
+
+Dinger
+Number of cuts:  0
+
+DocB7
+69673
+70607
+71433
+Number of cuts:  3
+
+  E3
+Number of cuts:  0
+
+Erik
+Number of cuts:  0
+
+Espica
+Number of cuts:  0
+
+Finch
+Number of cuts:  0
+
+Gollum
+Number of cuts:  0
+
+Grayson
+Number of cuts:  0
+
+Harlequin
+Number of cuts:  0
+
+Hiro
+Number of cuts:  0
+
+Jace
+21316
+25169
+52526
+Number of cuts:  3
+
+Jester
+Number of cuts:  0
+
+Krishelle
+Number of cuts:  0
+
+Lillie
+Number of cuts:  0
+
+Mahdia
+Number of cuts:  0
+
+Naiad
+Number of cuts:  0
+
+Nancinator
+Number of cuts:  0
+
+Natosaleda
+Number of cuts:  0
+
+Partridge
+Number of cuts:  0
+
+Pepy6
+4115
+18322
+54520
+60823
+Number of cuts:  4
+
+Peregrin
+70207
+Number of cuts:  1
+
+Phrankenstein
+Number of cuts:  0
+
+Pine5
+2638
+Number of cuts:  1
+
+Poco6
+47355
+Number of cuts:  1
+
+Rasputin
+Number of cuts:  0
+
+RER2
+Number of cuts:  0
+
+RexFury
+Number of cuts:  0
+
+RGL3
+Number of cuts:  0
+
+Rhodalysa
+Number of cuts:  0
+
+StCroix
+Number of cuts:  0
+
+Swann
+Number of cuts:  0
+
+Takoda
+Number of cuts:  0
+
+Trina
+Number of cuts:  0
+
+TWAMP
+Number of cuts:  0
+
+UhSalsa
+Number of cuts:  0
+
+Weasels2
+129049
+Number of cuts:  1
+
+Yogi
+Number of cuts:  0
+
+Yoncess
+Number of cuts:  0
+

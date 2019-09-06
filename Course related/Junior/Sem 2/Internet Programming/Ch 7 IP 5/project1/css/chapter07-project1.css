@@ -1,0 +1,107 @@
+.banner
+{
+    width: 100%;
+    box-shadow: 500em 500em black;
+    filter: brightness(0.2);
+}
+
+.banner--title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.banner--title h1
+{
+    font-size: 250%;
+}
+
+.banner--title h2
+{
+    font-size: 200%;
+    padding-bottom: 2%;
+}
+
+article
+{
+    margin-left: 10%;
+    margin-right: 13%;
+    margin-top: 2%;
+}
+
+article h2 
+{
+    border-bottom: 0.05em solid black;
+}
+
+.highlights--container
+{
+    background-color: red;
+    margin-top: 1%;
+}
+
+.highlights--media
+{
+    float: left;
+}
+
+.highlights--media img 
+{
+    width: 285px;
+    height: 190px;
+}
+
+.highlights--text
+{
+    width: 285px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.highlights--button
+{
+    float: right;
+    border: 0.05em solid orangered;
+    background-color: orangered;
+    color: white;
+    padding: 0.5em;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.mosaic 
+{
+    position: relative;
+    float: left;
+    margin-top: 2%;
+}
+
+.mosaic-item
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.mosaic--c
+{
+    position: absolute;
+    left: 37em;
+    top: 12.5em;
+}
+
+.mosaic--j
+{
+    position: absolute;
+    top: 37em;
+    left: 18.5em;
+}
+
+.mosaic--k
+{
+    position: absolute;
+    left: 55.5em;
+    top: 49.5em;
+}

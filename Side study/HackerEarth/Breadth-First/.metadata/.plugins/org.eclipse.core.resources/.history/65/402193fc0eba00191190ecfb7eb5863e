@@ -1,0 +1,44 @@
+package BreadthFirst;
+
+import java.util.*;
+
+public class Permutation {
+	
+	public static void main(String args[]) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        int n = Integer.parseInt(sc.nextLine());
+        String input = String.join("", sc.nextLine().split(" "));
+        Map<String,Integer> m = new HashMap<String,Integer>();
+        Queue<String> q = new LinkedList<String>();
+        q.add(input);
+        m.put(input,0);
+        String required = sort(input);
+        while(q.size() != 0){
+            String u = q.remove();
+            if(u.equals(required)){
+                System.out.println(m.get(u));
+                return;
+            }
+            for(int i = 1; i < n; i++){
+                String s = reverse(u, i);
+                if(m.containsKey(s) == false){
+                    int p = m.get(u)+1;
+                    m.put(s, p);
+                    q.add(s);
+                }
+            }
+        }
+    }
+    private static String reverse(String inp, int k){
+        char[] arr = inp.toCharArray();
+        for(int i = 0; i <= k;i++){
+            arr[i] = inp.charAt(k-i);
+        }
+        return new String(arr);
+    }
+    private static String sort(String input){
+        char[] arr = input.toCharArray();
+        Arrays.sort(arr);
+        return new String(arr);
+    }
+}

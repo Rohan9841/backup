@@ -1,0 +1,7 @@
+Open putty:
+
+hostname: ubuntu@ec2-54-221-108-81.compute-1.amazonaws.com
+port: 22
+Follow th instruction from this website: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+type java -jar docker-spring-boot.jar.1 to run the jar that you built
+After this you can connect to ec2 instance

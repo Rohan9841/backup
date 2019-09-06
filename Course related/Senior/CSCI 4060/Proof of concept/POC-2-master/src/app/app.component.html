@@ -1,0 +1,28 @@
+<div class="container">
+  <h3>POC Test</h3>
+  <div class="row">
+    <button class="btn btn-info col-md-3" (click)="fetchData()">
+      fetch data
+    </button>
+    <button class="btn btn-primary col-md-3" (click)="storeData()">
+      post data
+    </button>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Hem</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>{{ id }} - {{ name }}</p>
+</div>

@@ -1,0 +1,13 @@
+{
+  "serverless": {
+    "provider": "aws",
+    "project": "test",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "test",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}

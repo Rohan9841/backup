@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello-AR", "Hello-AR.csproj", "{2037239B-05D0-0CF0-0C33-87D34F7888E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello-AR.Editor", "Hello-AR.Editor.csproj", "{EE2107ED-FAE7-5773-0079-366554401AAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2037239B-05D0-0CF0-0C33-87D34F7888E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2037239B-05D0-0CF0-0C33-87D34F7888E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2037239B-05D0-0CF0-0C33-87D34F7888E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2037239B-05D0-0CF0-0C33-87D34F7888E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2107ED-FAE7-5773-0079-366554401AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2107ED-FAE7-5773-0079-366554401AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2107ED-FAE7-5773-0079-366554401AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2107ED-FAE7-5773-0079-366554401AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

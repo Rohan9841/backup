@@ -1,0 +1,234 @@
+/* 
+ * Name: Rohan Maharjan
+ * Instructor: Dr. Eaton
+ * Submission Date: 05/04/2018
+ * Program Description: This program is designed to help dieter choose certain foods based on their calorie goals.
+						A certain number of facts are first written by hard code first. Then, we create rules that 
+                        use those facts to display certain foods that the dieter can use. The program has only two 
+                        calorie goals (1200 and 1800). 
+ */
+
+%% <---------------------------Declaring facts for the program--------------------------------------------->
+
+
+/* 
+   The proteins listed below are low in fat, and are the protein foods the dieter should choose most often. 
+   Higher fat meats and dairy products, for instance, will have more calories.
+ */
+protein('1 Cup (250g) plain nonfat yogurt').
+protein('1 Cup (250g) vanilla nonfat yogurt').
+protein('1 Cup (250g) nonfat cottage cheese').
+protein('3 ounces (85g) cooked poultry').
+protein('3 ounces (85g) lean meat').
+protein('4 ounces (100g) cooked fish').
+protein('4 ounces (100g) shellfish').
+protein('1 cup (250 ml) nonfat milk').
+protein('1 cup (250 ml) low-fat milk').
+protein('1 whole egg + 4 egg whites').
+protein('7 egg whites').
+protein('5 ounces (125g) tofu').
+
+/* 
+   Fresh or frozen fruits are generally better choices than dried fruits or fruit juices, since the dieters will be 
+   getting the largest portion size for the calories they are eating.
+ */
+fruit('1 cup (80g) of cut fruit').
+fruit('1 cup (80g) of berries').
+fruit('1 average piece of fruit(apple,orange,banana,etc.)').
+fruit('1 small handful of dried fruit').
+fruit('1/2 cup (125 ml) 100% fruit juice').
+
+/* 
+   With the exception of starchy vegetables (such as corn and peas, which are listed with the starches), vegetables 
+   have the fewest calories per bite of any foods. In fact, the calories in leafy greens such as lettuce are so low 
+   that they can be eaten in any amount.
+ */
+vegetable('1 cup (80g) any vegetable').
+vegetable('Leafy greens - any amounnt').
+
+/* 
+   The foods listed in this group are whole grain. They provide more vitamins, minerals and fiber than refined “white”
+   starches, like white rice or white bread. 
+ */
+starch('1/2 cup (150g) cooked grain(rice,pasta,quiona,etc)').
+starch('1/2 cup (150g) beans').
+starch('1/2 cup (150g) lentils').
+starch('1/2 cup (150g) corn kernels').
+starch('1/2 cup (150g) peas').
+starch('1 slice whole grain bread').
+starch('1/2 large white potato').
+starch('1/2 large sweet potato').
+starch('1 cup (250g) cooked rooled oats').
+starch('2 corn tortillas').
+
+/* 
+   Protein snacks contain fewer calories and less protein than a full portion of protein. These smaller protein provide 
+   “boosts” during the day help to keep hunger at bay.
+ */
+protein_snack('1 Protein Snack Bar Deluxe').
+protein_snack('1 ounce (30g) roasted soy nuts').
+protein_snack('1 cup (250 ml) nonfat milk').
+protein_snack('1 cup (250 ml) low-fat milk').
+protein_snack('4 TBSP (60g) hummus').
+protein_snack('1/2 cup (125g) nonfat cottage cheese').
+protein_snack('1/2 cup (125g) flavored yogurt').
+protein_snack('1 ounce (30g) low-fat mozzarella cheese').
+protein_snack('1/2 cup (85g) edamame soybeans').
+
+/* 
+   Small amounts of fats or sweets can be used to add flavor to the foods. Each of the following items contains 60-75 
+   calories, which is why it is limited in the diet plans. Although avocado is technically a fruit, most of its calories 
+   come from fat so it’s counted as a taste enhancer. Similarly, while nuts do contain modest amounts of protein, most 
+   of the calories in nuts also come from fat so they are placed here.
+ */
+enhancer('2 TSP (10 ml) olive oil').
+enhancer('2 TSP (10 ml) canola oil').
+enhancer('2 TSP (10 ml) sunflower oil').
+enhancer('2 TSP (10 ml) safflower oil').
+enhancer('2 TBSP (30g) reduced-calorie salad dressing').
+enhancer('1/4 medium avocado').
+enhancer('small handful of nuts').
+enhancer('1/2 ounnce (15g) grated Parmesan cheese').
+enhancer('1 TBSP (20g) jam').
+enhancer('1 TBSP (20g) jelly').
+enhancer('1 TBSP (20g) honey').
+enhancer('1 TBSP (20g) syrup').
+enhancer('1 TBSP (20g) sugar').
+enhancer('2 TBSP (30g) light cream for coffee').
+enhancer('2 TBSP (30g) ketchup').
+enhancer('2 TBSP (30g) low fat sour cream').
+enhancer('2 TBSP (30g) low fat mayonnaise ').
+
+/* 
+   Some food items have so few calories that they are considered free. The foods listed below are all free foods
+ */
+freefood('Mustard').
+freefood('Vinegar').
+freefood('Herbs and Spices').
+freefood('Garlic').
+freefood('Onion').
+freefood('Lemon').
+freefood('Lime Juices').
+freefood('Salsa').
+freefood('hot pepper sauces').
+freefood('horseradish').
+freefood('Worcestershire sauce').
+freefood('Extracts (vanilla, peppermint, etc.)').
+freefood('Broth').
+freefood('bouillon').
+freefood('Soy Sauce').
+freefood('Calorie-free beverages and sweeteners').
+freefood('Pan sprays for cooking').
+
+/* 
+   Following are the dieters with their specific calorie goals.
+ */
+dieter('Jack', 1200).
+dieter('Hack', 1800).
+
+%% <--------------------------------Declaring rules for the program------------------------------------------->
+
+/* 
+   This rule displays foods that a dieter can include in his/her breakfast whose target calorie goal is 1200.
+ */
+breakfast(1200) :- 
+    write('1 Protein + 1 Fruit (+Vegetables if desired)').
+
+/* 
+   This rule displays foods that a dieter can include in his/her breakfast whose target calorie goal is 1800.
+ */
+breakfast(1800) :-
+    write('1 Protein + 1 Fruit (+Vegetables if desired)').
+
+/* 
+   This rule displays foods that a dieter can include in his/her breakfast.
+   @param X The name of the dieter which is used in dieter(X,Y) method to find the calorie. Then the breakfast(Y) 
+   			method is called where Y is the calorie goal of the person X.    
+ */
+breakfast(X) :- 
+    dieter(X, Y), 
+    breakfast(Y).
+    
+/* 
+   This rule displays foods that a dieter can include in his/her lunch whose target calorie goal is 1200.
+ */
+lunch(1200):-
+    write('1 Protein + 1 Vegetable + Leafy Greens + 1 Taste Enhancer').
+
+/* 
+   This rule displays foods that a dieter can include in his/her lunch whose target calorie goal is 1800.
+ */
+lunch(1800):-
+    write('2 Protein + 2 Vegetables + Leafy Greens + 1 Starch/Grain + 1 Taste Enhancer + 1 Fruit').
+
+/* 
+   This rule displays foods that a dieter can include in his/her lunch.
+   @param X The name of the dieter which is used in dieter(X,Y) method to find the calorie. Then the lunch(Y) 
+   			method is called where Y is the calorie goal of the person X.    
+ */
+lunch(X) :-
+    dieter(X,Y),
+    lunch(Y).
+
+/* 
+   This rule displays foods that a dieter can include in his/her dinner whose target calorie goal is 1200.
+ */
+dinner(1200):-
+    write('1 Protein + 1 Starch/Grain + 2 Vegetables + Leafy Greens + 1 Taste Enhancer').
+
+/* 
+   This rule displays foods that a dieter can include in his/her dinner whose target calorie goal is 1800.
+ */
+dinner(1800):-
+    write('2 Protein + 1 Starch/Grain + 2 Vegetables + Leafy Greens + 1 Taste Enhancer').
+
+/* 
+   This rule displays foods that a dieter can include in his/her dinner.
+   @param X The name of the dieter which is used in dieter(X,Y) method to find the calorie. Then the dinner(Y) 
+   			method is called where Y is the calorie goal of the person X.    
+ */
+dinner(X) :-
+    dieter(X,Y),
+    dinner(Y).
+
+/* 
+   This rule displays foods that a dieter can include in his/her afternoon snack whose target calorie goal is 1200.
+ */
+snack(1200,afternoon):-
+    write('1 Protein Snack + 1 Fruit or Vegetable').
+
+/* 
+   This rule displays foods that a dieter can include in his/her afterdinner snack whose target calorie goal is 1200.
+ */
+snack(1200,afterdinner):-
+    write('1 Fruit').
+
+/* 
+   This rule displays foods that a dieter can include in his/her morning snack whose target calorie goal is 1800.
+ */
+snack(1800,morning):-
+    write('1 Protein Snack').
+
+/* 
+   This rule displays foods that a dieter can include in his/her afternoon snack whose target calorie goal is 1800.
+ */
+snack(1800,afternoon):-
+    write('1 Protein Snack + 1 Fruit or Vegetable').
+
+/* 
+   This rule displays foods that a dieter can include in his/her afterdinner snack whose target calorie goal is 1800.
+ */
+snack(1800, afterdinner):-
+    write('1 Fruit').
+
+/* 
+   This rule displays foods that a dieter can include in his/her snack
+   @param X The name of the dieter which is used in dieter(X,Y) method to find the calorie Y.
+   @param Z The time of snack (morning, afternoon or afterdinner) which is used in snack(Y,Z) to display the snacks that
+   			the dieter 'X, with calorie goal 'Y', during time 'Z' can eat.
+ */
+snack(X,Z):-
+    dieter(X,Y),
+    snack(Y,Z).
+
+

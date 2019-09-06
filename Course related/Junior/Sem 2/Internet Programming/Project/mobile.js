@@ -1,0 +1,9 @@
+$("#navBarPic").click(function(){
+    $("#homePage").fadeToggle("slow","linear");
+    $("footer").fadeToggle("slow","linear");
+    $("#navLinks").fadeToggle("slow");
+    $("#educationBody").fadeToggle("slow");
+    $("#resumeBody").fadeToggle("slow");
+    $("#projectBody").fadeToggle("slow");
+    $("#contactBody").fadeToggle("slow");
+});

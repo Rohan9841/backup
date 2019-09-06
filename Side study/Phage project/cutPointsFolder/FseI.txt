@@ -1,0 +1,311 @@
+Alatin
+622
+2078
+18633
+23221
+Number of cuts:  4
+
+Alpacados
+622
+2031
+18569
+23090
+Number of cuts:  4
+
+AngryOrchard
+619
+2023
+18552
+23085
+Number of cuts:  4
+
+AppleCloud
+386
+1787
+18598
+23120
+Number of cuts:  4
+
+Belenaria
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+BobbyDazzler
+622
+2143
+18678
+23200
+Number of cuts:  4
+
+Bonanza
+622
+2078
+18607
+23128
+Number of cuts:  4
+
+Bradshaw
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Bryce
+622
+2078
+18607
+23129
+Number of cuts:  4
+
+ChewyVIII
+10124
+42396
+68431
+Number of cuts:  3
+
+CosmicSans
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Dinger
+621
+2074
+18603
+23137
+Number of cuts:  4
+
+DocB7
+Number of cuts:  0
+
+  E3
+Number of cuts:  0
+
+Erik
+622
+2078
+18632
+23153
+Number of cuts:  4
+
+Espica
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Finch
+Number of cuts:  0
+
+Gollum
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Grayson
+128552
+Number of cuts:  1
+
+Harlequin
+622
+2078
+18583
+23159
+Number of cuts:  4
+
+Hiro
+622
+2078
+18889
+23411
+Number of cuts:  4
+
+Jace
+Number of cuts:  0
+
+Jester
+622
+2078
+18577
+23090
+Number of cuts:  4
+
+Krishelle
+622
+2078
+18904
+23462
+Number of cuts:  4
+
+Lillie
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Mahdia
+Number of cuts:  0
+
+Naiad
+622
+2078
+18633
+23167
+Number of cuts:  4
+
+Nancinator
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Natosaleda
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Partridge
+619
+2137
+18666
+23200
+Number of cuts:  4
+
+Pepy6
+54027
+Number of cuts:  1
+
+Peregrin
+Number of cuts:  0
+
+Phrankenstein
+622
+2078
+18633
+23100
+Number of cuts:  4
+
+Pine5
+4026
+44508
+53814
+Number of cuts:  3
+
+Poco6
+54
+23139
+30981
+55535
+64745
+Number of cuts:  5
+
+Rasputin
+622
+2078
+18602
+23124
+Number of cuts:  4
+
+RER2
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+RexFury
+622
+2109
+18664
+23185
+Number of cuts:  4
+
+RGL3
+610
+15699
+18795
+23632
+26800
+38987
+41432
+42735
+46394
+Number of cuts:  9
+
+Rhodalysa
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+StCroix
+622
+2078
+18633
+23167
+Number of cuts:  4
+
+Swann
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Takoda
+619
+2070
+18593
+23126
+Number of cuts:  4
+
+Trina
+2787
+139189
+Number of cuts:  2
+
+TWAMP
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+UhSalsa
+622
+2078
+18633
+23154
+Number of cuts:  4
+
+Weasels2
+Number of cuts:  0
+
+Yogi
+622
+2078
+18607
+23128
+Number of cuts:  4
+
+Yoncess
+622
+2078
+18607
+23129
+Number of cuts:  4
+

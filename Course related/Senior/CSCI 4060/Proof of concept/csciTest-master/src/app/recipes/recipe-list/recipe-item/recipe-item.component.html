@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-md-12">
+    <!-- <a
+      style="cursor: pointer;"
+      class="list-group-item clearfix"
+      (click)="onRecipeItemClick()"
+    > -->
+    <a
+      [routerLink]="[id]"
+      routerLinkActive="active"
+      style="cursor: pointer;"
+      class="list-group-item clearfix"
+    >
+      <div>
+        <span class="float-left">
+          <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+          <p class="list-group-item-text">{{ recipe.description }}</p></span
+        >
+        <span class="float-right">
+          <img
+            [src]="recipe.imagePath"
+            alt="{{ recipe.description }}"
+            class="img-responsive"
+            style="height: 50px; width: 50px"
+          />
+        </span>
+      </div>
+    </a>
+  </div>
+</div>

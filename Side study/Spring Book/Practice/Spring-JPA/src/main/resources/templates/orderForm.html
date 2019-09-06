@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns = "www.w3.org/1999/xhtml"
+    xmlns:th = "www.thymeleaf.org">
+    
+    <head>
+        <title>Spring-JPA</title>
+    </head>
+
+    <body>
+        <h1>Place your order!</h1>
+        <img th:src = "@{/images/tacoCloud.png}"/>
+        <a th:href = "@{/design}">Design another Taco</a>
+        <form method = "POST" th:action = "@{/orders}" th:object = "${order}">
+            <h3>Deliver my Taco to...</h3>
+            
+            <label for = "deliveryName">Name</label>
+            <input type = "text" th:field = "*{deliveryName}"/>
+            <br>
+            
+            <label for = "deliveryStreet">Street</label>
+            <input type = "text" th:field = "*{deliveryStreet}"/>
+            <br>
+
+            <label for = "deliveryCity">City</label>
+            <input type = "text" th:field = "*{deliveryCity}"/>
+            <br>
+            
+            <label for = "deliveryState">State</label>
+            <input type = "text" th:field = "*{deliveryState}"/>
+            <br>
+        
+            <label for = "deliveryZip">Zip</label>
+            <input type = "text" th:field = "*{deliveryZip}"/>
+            <br>
+
+            <h3>I will pay with...</h3>
+
+            <label for = "ccNumber">Credit Card#</label>
+            <input type = "text" th:field = "*{ccNumber}"/>
+            <br>
+
+            <label for = "ccExpiration">Expiration Date</label>
+            <input type = "text" th:field = "*{ccExpiration}"/>
+            <br>
+
+            <label for = "ccCVV">CVV</label>
+            <input type = "text" th:field = "*{ccCVV}"/>
+            <br>
+
+            <input type = "submit" value = "submit order"/>
+            
+        </form>
+    </body>
+</html>

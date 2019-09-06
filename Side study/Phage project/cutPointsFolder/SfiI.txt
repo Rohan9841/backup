@@ -1,0 +1,265 @@
+Alatin
+38242
+Number of cuts:  1
+
+Alpacados
+Number of cuts:  0
+
+AngryOrchard
+Number of cuts:  0
+
+AppleCloud
+37960
+Number of cuts:  1
+
+Belenaria
+38108
+Number of cuts:  1
+
+BobbyDazzler
+Number of cuts:  0
+
+Bonanza
+Number of cuts:  0
+
+Bradshaw
+38175
+Number of cuts:  1
+
+Bryce
+Number of cuts:  0
+
+ChewyVIII
+8448
+32915
+61991
+Number of cuts:  3
+
+CosmicSans
+38166
+Number of cuts:  1
+
+Dinger
+Number of cuts:  0
+
+DocB7
+Number of cuts:  0
+
+  E3
+6699
+6708
+9280
+14182
+17895
+22480
+24588
+28427
+31853
+37253
+43595
+48853
+54110
+54119
+54457
+56936
+57558
+58606
+60210
+61463
+61715
+61760
+67428
+75572
+75581
+78723
+80240
+88706
+91931
+92943
+96158
+104583
+106650
+108531
+109375
+111997
+112048
+115314
+118787
+120547
+124972
+129028
+132750
+135036
+Number of cuts: 44
+
+Erik
+38098
+Number of cuts:  1
+
+Espica
+38108
+Number of cuts:  1
+
+Finch
+17686
+54316
+59611
+63582
+77577
+Number of cuts:  5
+
+Gollum
+38164
+Number of cuts:  1
+
+Grayson
+Number of cuts:  0
+
+Harlequin
+Number of cuts:  0
+
+Hiro
+Number of cuts:  0
+
+Jace
+Number of cuts:  0
+
+Jester
+Number of cuts:  0
+
+Krishelle
+38535
+Number of cuts:  1
+
+Lillie
+38166
+Number of cuts:  1
+
+Mahdia
+1381
+2716
+4035
+4353
+4440
+5516
+5776
+6974
+8750
+8777
+9702
+9868
+10144
+10975
+10984
+14683
+15928
+17013
+17379
+18213
+19120
+19971
+21683
+24167
+25188
+25272
+25293
+29374
+30091
+31493
+31502
+32845
+32983
+34423
+34798
+37491
+38130
+40252
+40466
+41817
+Number of cuts: 40
+
+Naiad
+38188
+Number of cuts:  1
+
+Nancinator
+38108
+Number of cuts:  1
+
+Natosaleda
+38107
+Number of cuts:  1
+
+Partridge
+Number of cuts:  0
+
+Pepy6
+62634
+Number of cuts:  1
+
+Peregrin
+4900
+Number of cuts:  1
+
+Phrankenstein
+38112
+Number of cuts:  1
+
+Pine5
+26220
+Number of cuts:  1
+
+Poco6
+30987
+Number of cuts:  1
+
+Rasputin
+38137
+Number of cuts:  1
+
+RER2
+38166
+Number of cuts:  1
+
+RexFury
+38197
+Number of cuts:  1
+
+RGL3
+Number of cuts:  0
+
+Rhodalysa
+38166
+Number of cuts:  1
+
+StCroix
+38188
+Number of cuts:  1
+
+Swann
+38164
+Number of cuts:  1
+
+Takoda
+Number of cuts:  0
+
+Trina
+Number of cuts:  0
+
+TWAMP
+38166
+Number of cuts:  1
+
+UhSalsa
+38108
+Number of cuts:  1
+
+Weasels2
+Number of cuts:  0
+
+Yogi
+Number of cuts:  0
+
+Yoncess
+Number of cuts:  0
+

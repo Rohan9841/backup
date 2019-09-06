@@ -1,0 +1,22 @@
+package tacos.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+import tacos.data.IngredientRepository;
+
+public class DesignController {
+
+	private IngredientRepository ingredientRepo;
+	
+	@Autowired
+	public DesignController(IngredientRepository ingredientRepo) {
+		this.ingredientRepo = ingredientRepo;
+	}
+	
+	@ModelAttribute
+	public void addIngredientsToModel(Model model) {
+		
+	}
+}
